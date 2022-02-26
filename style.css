@@ -1,10 +1,36 @@
 h1 {
     color:coral;
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
 }
 
 h2 {
     color: purple;
+    text-shadow: 1px 1px 3px darkred;
 }
 body {
-    background-color: #cc99ff;
+    background-image: url(dog.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.borderImg {
+    border: 5px dashed red; 
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: auto;
+}
+
+#circle {
+    color: rgb(0, 255, 34);
+    font-size: 40px;
+}
+
+.container {
+    /* background: linear-gradient(to right, #00ccff,#b3f0ff);
+    box-shadow: 3px 5px 3px black; */
 }
